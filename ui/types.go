@@ -8,7 +8,7 @@ import (
 )
 
 type AppInit struct {
-	PixlWindo fyne.Window
-	State     *apptype.State
-	Swatches  []*swatch.Swatch
+	PixlWindow fyne.Window
+	State      *apptype.State
+	Swatches   []*swatch.Swatch
 }
