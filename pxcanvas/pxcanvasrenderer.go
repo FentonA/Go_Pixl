@@ -16,7 +16,7 @@ func (renderer *PxCanvasRenderer) MinSize() fyne.Size {
 	return renderer.pxCanvas.DrawingArea
 }
 
-func (renderer *PxCanvasRenderer) Object() []fyne.CanvasObject {
+func (renderer *PxCanvasRenderer) Objects() []fyne.CanvasObject {
 	objects := make([]fyne.CanvasObject, 0, 5)
 	for i := 0; i < len(renderer.canvasBorder); i++ {
 		objects = append(objects, &renderer.canvasBorder[i])
